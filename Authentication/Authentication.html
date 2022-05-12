@@ -8,17 +8,21 @@
     <title>Authentication</title>
 </head>
 <body>
+    
     <div>
-        <input type="password" placeholder="Create your password" id="sign-up-input">
+        <h1>Password Validation</h1>
+        <input type="password" placeholder="Create your password" id="sign-up-input" onkeyup = "checkPasswordStrength()">
+        <p id = "password-strength"></p>
         <p class = "valid" id = "sign-up-valid">password saved successfully</p>
         <button onclick="signUp()"> Sign up </button>
     </div>
     <hr>
     <div>
-        <input type="password" placeholder="Enter  password">
+        <h1>Enter newly Created Password</h1>
+        <input type="password" placeholder="Enter  password" id = "login-input">
         <p class = "valid" id = "login-valid">password correct , login access granted </p>
         <p class = "valid" id = "login-invalid">password incorrect, login denied </p>
-        <button onclick="login()"> Login</button>
+        <button onclick="logIn()"> Login</button>
     </div>
     <script src = "Authentication.js"></script>
 </body>
