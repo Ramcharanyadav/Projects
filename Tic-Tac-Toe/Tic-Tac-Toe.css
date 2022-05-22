@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    font-family: 'Permanent Marker', cursive;
+    font-size: larger;
+    text-align: center;
+    background-color: black;
+}
+
+h1 , h2 , h3{
+    text-align: center;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin: 2px;
+    color: yellow;
+}
+
+h2{
+	padding: 10px;
+	width: 220px;
+	margin: 0 auto 10px;
+}
+
+h3 {
+	background-color: #eee;
+	padding: 10px;
+	width: 200px;
+	margin: 0 auto 10px;
+}
+.row{
+    display: flex;
+    width: 606px;
+    height: 606px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.col{
+    width: 200px;
+    height: 200px;
+    background-color: Cyan;
+    border:1px solid black;
+    font-size: 8em;
+    text-align: center;
+}
+
